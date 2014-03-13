@@ -4,8 +4,10 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
 }
 body {
+  height: 100%;
   font-family: 'Droid Serif', serif;
 }
 
