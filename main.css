@@ -4,11 +4,10 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%;
+  overflow: hidden;
 }
 body {
   font-family: 'Droid Serif', serif;
-  height: 100%;
 }
 
 .github {
