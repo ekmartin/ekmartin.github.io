@@ -1,5 +1,5 @@
 html {
-  background: url(assets/bg2.jpg) no-repeat center center fixed;
+  background: url(assets/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -52,7 +52,7 @@ h3 {
 #white {
   -webkit-box-shadow: 9px 3px 9px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    9px 3px 9px 0px rgba(50, 50, 50, 0.75);
-  box-shadow:         9px 3px 9px 0px rgba(50, 50, 50, 0.75);  
+  box-shadow:         9px 3px 9px 0px rgba(50, 50, 50, 0.75);
   font-size: 20px;
   width: 700px;
   height: 700px;
