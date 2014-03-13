@@ -1,0 +1,68 @@
+html {
+  background: url(assets/bg2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+body {
+  font-family: 'Droid Serif', serif;
+  height: 100%;
+}
+
+.github {
+  margin-left: 27%;
+}
+
+.fa {
+  color: #686762;
+  margin-top: 5%;
+  font-size: 3em;
+}
+
+.fa:hover {
+  color: #2a2923;
+}
+
+.icon:not(.github) {
+  margin-left: 12%;
+}
+
+a:not(.icon) {
+  color: #2a2923;
+}
+
+a:hover {
+  color: #403f39;
+}
+
+h3 {
+  margin-top: 25%;
+  font-size: 30px;
+}
+
+.text {
+  color: #615f58;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center
+}
+
+#white {
+  -webkit-box-shadow: 9px 3px 9px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    9px 3px 9px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         9px 3px 9px 0px rgba(50, 50, 50, 0.75);  
+  font-size: 20px;
+  width: 700px;
+  height: 700px;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-border-radius: 400px;
+  -webkit-border-radius: 400px;
+  border-radius: 400px;
+  /*background-color: #ede9d5;*/
+  background: -webkit-radial-gradient(center, ellipse cover, #ede9d5 0%,#e8e1bf 100%);
+  border: 10px solid #e1d9b3;
+}
