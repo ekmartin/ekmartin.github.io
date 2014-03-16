@@ -19,7 +19,7 @@ body {
 
 .fa {
   color: #686762;
-  margin-top: 5%;
+  margin-top: 7%;
   font-size: 3em;
 }
 
@@ -40,7 +40,8 @@ a:hover {
 }
 
 h3 {
-  margin-top: 25%;
+  margin-top: 30%;
+  margin-bottom: 5%;
   font-size: 30px;
 }
 
@@ -49,6 +50,15 @@ h3 {
   margin-left: 10%;
   margin-right: 10%;
   text-align: center
+}
+
+.mail {
+  margin-top: 5%;
+  color: #615f58;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.15em;
+  text-align: center;
 }
 
 #white {
