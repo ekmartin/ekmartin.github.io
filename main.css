@@ -14,7 +14,7 @@ body {
 }
 
 .github {
-  margin-left: 27%;
+  margin-left: 180px;
 }
 
 .fa {
@@ -28,7 +28,7 @@ body {
 }
 
 .icon:not(.github) {
-  margin-left: 12%;
+  margin-left: 90px;
 }
 
 a:not(.icon) {
@@ -71,10 +71,9 @@ h3 {
   margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
-  -moz-border-radius: 400px;
-  -webkit-border-radius: 400px;
-  border-radius: 400px;
-  /*background-color: #ede9d5;*/
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
   background: -webkit-radial-gradient(center, ellipse cover, #ede9d5 0%,#e8e1bf 100%);
   border: 10px solid #e1d9b3;
 }
