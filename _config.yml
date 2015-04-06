@@ -1,0 +1,7 @@
+name: ekmartin.no
+highlighter: pygments
+exclude:
+  - README.md
+  - CNAME
+  - .gitignore
+  - vendor
