@@ -76,7 +76,6 @@ p.frontpage-header-email
 
   h2
     margin-bottom: 0
-    display: inline-block
     font-size: 3.5rem
 
     a
@@ -86,26 +85,16 @@ p.frontpage-header-email
         color: black
 
   time
-    line-height: 1.9
-    font-size: 2rem
-    float: right
+    display: block
+    margin-top: 10px
+    line-height: 1.6
+    font-size: 1.3rem
 
 .article-more
   font-size: 1.8rem
 
-.article-left, .article-right
-  display: inline-block
-
-.article-left
-  margin-right: 30px
-  width: 85%
-
 .article-right
-  width: 10%
-  text-align: right
   color: $grey
-  margin-top: 10px
-  vertical-align: top
 
 .article-page
   max-width: 900px
@@ -138,3 +127,15 @@ p.frontpage-header-email
 
 #disqus_thread
   margin-top: 70px
+
+@media(min-width: 750px)
+  .article-header
+    h2
+      width: 84%
+      display: inline-block
+
+    time
+      text-align: right
+      font-size: 1.6rem
+      width: 15%
+      display: inline-block

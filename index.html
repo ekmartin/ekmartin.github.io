@@ -19,17 +19,13 @@ title: Blogg
   <section class='article-list'>
   {% for post in site.posts %}
     <article class='article-frontpage'>
-      <div class='article-left'>
-        <header class='article-header'>
-          <h2><a href='{{post.url}}'>{{post.title}}</a></h2>
-        </header>
-
-        {{post.excerpt}}
-        <a href='{{post.url}}' class='article-more'>Read more &rarr;</a>
-      </div>
-      <div class='article-right'>
+      <header class='article-header'>
+        <h2><a href='{{post.url}}'>{{post.title}}</a></h2>
         <time>{{post.date | date_to_long_string}}</time>
-      </div>
+      </header>
+
+      {{post.excerpt}}
+      <a href='{{post.url}}' class='article-more'>Read more &rarr;</a>
     </article>
   {% endfor %}
   </section>
