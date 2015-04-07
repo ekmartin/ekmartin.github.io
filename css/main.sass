@@ -19,25 +19,29 @@ a
     color: $dark-red
     text-decoration: none
 
-body
-  margin-top: 100px
-
 .container
   max-width: 1100px
 
-.frontpage-header
+p
+  letter-spacing: .01rem
+
+h1
+  margin-bottom: 30px
+  text-transform: uppercase
+  letter-spacing: 2.3px
+  font-weight: 700
+  font-size: 4.2rem
+  color: $dark-grey
+
+.frontpage
+  margin-top: 100px
+
+.header
   text-align: center
   width: 100%
   border-bottom: 2px solid transparentize($red, 0.3)
   padding-bottom: 40px
-
-  h1
-    margin-bottom: 30px
-    text-transform: uppercase
-    letter-spacing: 2.3px
-    font-weight: 700
-    font-size: 4.2rem
-    color: $dark-grey
+  margin-bottom: 50px
 
   p
     font-weight: 200
@@ -52,8 +56,9 @@ p.frontpage-header-email
   text-align: center
 
   a
+    transition: 0.3s color
     color: $dark-grey
-    padding: 0 80px
+    margin: 0 7%
     font-size: 4rem
 
     &:hover
@@ -77,6 +82,9 @@ p.frontpage-header-email
     a
       color: $dark-grey
 
+      &:hover
+        color: black
+
   time
     line-height: 1.9
     font-size: 2rem
@@ -84,9 +92,6 @@ p.frontpage-header-email
 
 .article-more
   font-size: 1.8rem
-
-.article-list
-  margin-top: 50px
 
 .article-left, .article-right
   display: inline-block
@@ -101,3 +106,35 @@ p.frontpage-header-email
   color: $grey
   margin-top: 10px
   vertical-align: top
+
+.article-page
+  max-width: 900px
+  margin: 0 auto
+  margin-top: 15px
+
+  .header
+    padding: 15px 0
+
+  p
+    font-weight: 200
+    color: $dark-grey
+    font-size: 2.0rem
+
+.home
+  margin-bottom: 50px
+
+.home-back
+  font-size: 2.3rem
+  color: $dark-grey
+  text-transform: uppercase
+  letter-spacing: 2.3px
+  font-weight: 700
+
+  i
+    font-size: 2rem
+
+  &:hover
+    color: black
+
+#disqus_thread
+  margin-top: 70px
