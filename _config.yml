@@ -1,6 +1,6 @@
 name: ekmartin.no
 permalink: /:year/:title
-highlighter: pygments
+highlighter: rouge
 exclude:
   - README.md
   - CNAME
